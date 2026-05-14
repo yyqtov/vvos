@@ -3,7 +3,7 @@ name: VVOS-Signin
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5 * * *'   # 每天 UTC 05:22（北京时间 13:22）
+    - cron: '11 4 * * *'   # 每天 UTC 05:22（北京时间 13:22）
 
 jobs:
   signin:
